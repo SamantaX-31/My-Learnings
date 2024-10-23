@@ -1,0 +1,41 @@
+body
+{
+    background-color:rgb(169, 224, 224);
+    margin:45;
+}
+h1
+{
+    text-align: center;
+    color:rgb(250, 24, 16);
+}
+header
+{
+    background-color: aqua;
+    font-family: cursive;
+    border-style:solid;
+    border-radius:12px;
+}
+#p1 
+{
+   border-style: solid;
+   background-color: hsl(60, 96%, 53%);
+   color:rgb(155, 48, 48);
+}
+img
+{
+    margin-top:20px;
+    margin-right: 20px;
+    float:left;
+    border:3px solid rgb(11, 124, 253);
+    border-radius: 50px;
+}
+#p3
+{
+    font-size:medium;
+    font-family:cursive;
+}
+table
+{
+    border-style: 10px solid black;
+    background-color: aquamarine;
+}
