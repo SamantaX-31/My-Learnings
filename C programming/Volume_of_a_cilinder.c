@@ -1,12 +1,10 @@
 #include<stdio.h>
-#include<conio.h>
+#define pi 3.14159
 int main()
 {
-    float height,radius,pi=3.14;
-    printf("Enter the height of your cilinder:\n");
-    scanf("%f",&height);
-    printf("Enter the radius of your cilinder:");
+    float radius, volume;
+    printf("Enter the radius of your sphere:");
     scanf("%f",&radius);
-    printf("The volume your cilinder is %f",pi*height*radius);
+    printf("The volume your sphere is %f",(4*pi*radius*radius*radius)/3);
     return 0;
 }
