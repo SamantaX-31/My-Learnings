@@ -1,0 +1,19 @@
+#include<stdio.h>
+int recursive_sum(int);
+int main()
+{
+	int n;
+	printf("n:");
+	scanf("%d",&n);
+	int sum= recursive_sum(n);
+	printf("sum=%d",sum);
+	return 0;
+}
+int recursive_sum(int n)
+{
+	if(n==0)
+	return 0;
+	else
+	return n+ recursive_sum(n-1);
+	
+}
