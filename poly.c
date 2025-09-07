@@ -33,10 +33,6 @@ newnode->coef=coef;
     temp->next=newnode;
 }
 
-
-
-   
-
 node *polyadd(node *p1, node *p2)
 {
   node *p3=NULL; // head pointer of third polynomia
